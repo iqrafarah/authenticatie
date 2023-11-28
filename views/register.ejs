@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Signup</h1>
+
+      <div class="<%= status %>"><%= message %></div>
+
+      <form method="post" action="/register">
+        <input
+          type="text"
+          name="gebruikersnaam"
+          id="gebruikersnaam"
+          placeholder="Gebruikersnaam"
+        />
+        <input
+          type="email"
+          name="emailadres"
+          id="emailadres"
+          placeholder="E-mail"
+        />
+        <input
+          type="text"
+          name="voornaam"
+          id="voornaam"
+          placeholder="Voornaam"
+        />
+        <input
+          type="text"
+          name="achternaam"
+          id="achternaam"
+          placeholder="Achternaam"
+        />
+        <input
+          type="password"
+          name="wachtwoord"
+          id="wachtwoord"
+          placeholder="Wachtwoord"
+        />
+
+        <button type="submit">Sign Up</button>
+        <p>already a member? <a href="login">Login</a></p>
+      </form>
+    </div>
+    <script src="js/register.js"></script>
+  </body>
+</html>

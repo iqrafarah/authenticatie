@@ -1,0 +1,30 @@
+{
+  "name": "viewers",
+  "version": "1.0.0",
+  "description": "Lists who is currently watching a given stream on Twitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripplyons/viewers.git"
+  },
+  "keywords": [
+    "twitch",
+    "api",
+    "viewers",
+    "chatters",
+    "watchers",
+    "stream"
+  ],
+  "author": "Tripp Lyons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tripplyons/viewers/issues"
+  },
+  "homepage": "https://github.com/tripplyons/viewers#readme",
+  "dependencies": {
+    "r2": "^2.0.1"
+  }
+}

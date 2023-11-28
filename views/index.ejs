@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepagina</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <% if (!user) { %>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+      <% } else { %>
+      <h1>Welcome <%= user.username %> <%= user.lastName %></h1>
+      <button><a href="/logout">Logout</a></button>
+      <% } %>
+    </div>
+  </body>
+</html>
